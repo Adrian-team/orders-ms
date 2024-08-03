@@ -13,10 +13,9 @@ import { envs } from 'src/config/envs';
     ClientsModule.register([
       {
         name: PRODUCT_SERVICE,
-        transport: Transport.TCP,
+        transport: Transport.NATS,
         options: {
-          host: envs.product_ms_host,
-          port: envs.product_ms_port,
+          servers: envs.natsServers,
         },
       },
     ]),

@@ -29,3 +29,9 @@ No haremos un CRUD completo porque las órdenes no se actualizarán más que par
 2- OrdersMicroservice - Creación de la orden y su detalle
 3- ProductsMicroservice - Verificación de que cada producto existe en la base de datos.
 Haremos validación de DTOs compuestos, comunicación entre microservicios y validación y retorno de la data esperada.
+
+#### Temario curso seccion 08 (02-products-app/client-gateway)
+
+1. Agregamos un modulo para la comunicacion con nats
+2. Descargamos Nats a traves de docker.
+3. Confuguracion de la comunicacion a traves de nats
